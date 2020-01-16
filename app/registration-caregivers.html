@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap-scss/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="libs/custom-modal/custom-modal.css">
+    <link rel="stylesheet" href="libs/datepicker/jquery.timepicker.min.css">
+    <link rel="stylesheet" href="libs/datepicker/datepicker.min.css">
+    <link rel="stylesheet" href="libs/basictable/basictable.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/media.min.css">
+    <title>Document</title>
+</head>
+<body>
+
+<div class="header-nav">
+    <div class="container">
+        <div class="row align-items-center equal-offsets">
+            <div class="col-xl-3">
+                <div class="header-nav-logo">
+                    <a href="">
+                        <img src="images/header-logo.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-xl-9 header-nav-burger">
+                <div class="header-nav-list">
+                    <div class="burger">
+                        <svg viewBox="0 0 800 600">
+                            <path d="M300,220 C300,220 520,220 540,220 C740,220 640,540 520,420 C440,340 300,200 300,200"
+                                  id="top"></path>
+                            <path d="M300,320 L540,320" id="middle"></path>
+                            <path d="M300,210 C300,210 520,210 540,210 C740,210 640,530 520,410 C440,330 300,190 300,190"
+                                  id="bottom"
+                                  transform="translate(480, 320) scale(1, -1) translate(-480, -318) "></path>
+                        </svg>
+                    </div>
+                    <ul class="header-nav-list-menu">
+                        <li class="header-nav-list-item"><a href="">About Us</a></li>
+                        <li class="header-nav-list-item"><a href="">Site Policy</a></li>
+                        <li class="header-nav-list-item"><a href="">Terms</a></li>
+                        <li class="header-nav-list-item"><a href="">FAQ</a></li>
+                        <li class="header-nav-list-item"><a class="active" href="">for agencies</a></li>
+                        <li class="header-nav-list-item"><a href="">Contacts</a></li>
+                    </ul>
+                    <div class="header-nav-registration">
+                        <a href="">Login/Registration</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="banner" style="background: url('images/banner.png');">
+    <div class="container">
+        <div class="banner-blog">
+            <h1 class="un-title">Registration</h1>
+            <ul class="banner-brandCramp">
+                <li><a href="">MAIN</a></li>
+                <li><a href="">Registration</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="personal-page">
+    <div class="container">
+        <h1 class="un-title">Registration for agencies</h1>
+        <div class="personal-page-block">
+            <div class="registration-page-element">
+                <form action="">
+                    <div class="registration-page-element-pnt">
+                        <label for="">First name</label>
+                        <input class="registration-page-element-input" type="text">
+                    </div>
+                    <div class="registration-page-element-pnt">
+                        <label for="">Last name</label>
+                        <input class="registration-page-element-input" type="text">
+                    </div>
+                    <div class="registration-page-element-pnt">
+                        <label for="">Address</label>
+                        <input class="registration-page-element-input" type="text">
+                    </div>
+                    <div class="registration-page-element-pnt-wrap">
+                        <div class="registration-page-element-pnt-wrap-element">
+                            <p>
+                                <label for="">City</label>
+                            </p>
+                            <input class="edit-profile-blog-city-input" type="text">
+                        </div>
+                        <div class="state-ny registration-page-element-pnt-wrap-element">
+                            <label for="">State</label>
+                            <select style="display: none" id="languageSelect">
+                                <option value="0">Russian</option>
+                                <option value="1">English</option>
+                            </select>
+                            <div class="state-ny-select">
+                                <select  class="edit-profile-select" name="language" data-placeholder="NY" id="">
+                                    <option value="0">RU</option>
+                                    <option value="1">En</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="registration-page-element-pnt">
+                        <label for="">Zipcode</label>
+                        <input class="registration-page-element-input" type="text">
+                    </div>
+                    <div class="registration-page-element-pnt">
+                        <label for="">Phone</label>
+                        <input class="registration-page-element-input" type="text">
+                    </div>
+                    <div class="registration-certification">
+                        <p>Sex</p>
+                        <div class="registration-certification-blog">
+                            <div class="registration-certification-left">
+                                <input checked id="hha" name="hha" type="radio" class="radio-form">
+                                <label class="radio-form-label" for="hha">Man</label>
+                            </div>
+                            <div class="registration-certification-right">
+                                <input id="psa" name="hha" type="radio" class="radio-form">
+                                <label for="psa" class="radio-form-label">Female</label>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="registration-page-element-pnt">
+                        <label for="">E-mail</label>
+                        <input class="registration-page-element-input" type="text">
+                    </div>
+                    <div class="registration-page-element-pnt ">
+                        <label for="">Password (min 8 characters)</label>
+
+                        <div class="password-input-wrap">
+                            <button type="button" class="password-show-toggle-btn"><img src="images/eye-icon.png" alt=""></button>
+                            <input class="registration-page-element-input password-input-wth-eye" type="password">
+                        </div>
+
+
+                    </div>
+                    <div class="registration-page-element-label">
+                        <div class="checkbox-form">
+                            <input type="checkbox" name="week_day" id="week_tuesday" class="week-checkbox checkbox-form-control">
+                            <label for="week_tuesday" class="checkbox-form-label">I accept the terms</label>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="edit-profile-blog-save" type="button">Registration</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer" style="background: url('images/footer-banner.png')">
+    <div class="container">
+        <div class="footer-top">
+            <div class="row equal-offsets">
+                <div class="col-lg-5 col-md-5 ">
+                    <div class="footer-logo">
+                        <img src="images/footer-logo.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-2 ">
+                    <ul class="footer-menu">
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Contacts us</a></li>
+                        <li><a href="">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-3 ">
+
+                    <div class="footer-right-menu">
+                        <ul class="footer-menu">
+                            <li><a href="">Agencies</a></li>
+                            <li><a href="">Return</a></li>
+                        </ul>
+                        <ul class="footer-social">
+                            <li><a href="">
+                                <svg height="25" width="25" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z"></path>
+                                </svg>
+                            </a></li>
+                            <li><a href="">
+                                <svg height="25" width="25" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path>
+                                </svg>
+                            </a></li>
+                            <li><a href="">
+                                <svg height="25" width="25" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+                                </svg>
+                            </a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer-buttom">
+            <ul class="footer-buttom-list">
+                <li>“HHA Connect” All rights reserved</li>
+                <li>© Copyright 2019 - Developed by <a href="">SOS Group</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script src="libs/jquery/jquery.min.js"></script>
+<script src="libs/custom-modal/custom-modal.js"></script>
+<script src="js/add-inform-function.js"></script>
+<script src="libs/datepicker/jquery.timepicker.min.js"></script>
+<script src="libs/datepicker/datepicker.min.js"></script>
+<script src="libs/custom-select/customSelect.js"></script>
+<script src="libs/basictable/jquery.basictable.min.js"></script>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
+

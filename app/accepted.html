@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap-scss/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="libs/custom-modal/custom-modal.css">
+    <link rel="stylesheet" href="libs/datepicker/jquery.timepicker.min.css">
+    <link rel="stylesheet" href="libs/datepicker/datepicker.min.css">
+    <link rel="stylesheet" href="libs/basictable/basictable.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/media.min.css">
+    <title>Document</title>
+</head>
+<body>
+
+<div class="header-nav">
+    <div class="container">
+        <div class="row align-items-center equal-offsets">
+            <div class="col-xl-3">
+                <div class="header-nav-logo">
+                    <a href="">
+                        <img src="images/header-logo.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-xl-9 header-nav-burger">
+                <div class="header-nav-list">
+                    <div class="burger">
+                        <svg viewBox="0 0 800 600">
+                            <path d="M300,220 C300,220 520,220 540,220 C740,220 640,540 520,420 C440,340 300,200 300,200"
+                                  id="top"></path>
+                            <path d="M300,320 L540,320" id="middle"></path>
+                            <path d="M300,210 C300,210 520,210 540,210 C740,210 640,530 520,410 C440,330 300,190 300,190"
+                                  id="bottom"
+                                  transform="translate(480, 320) scale(1, -1) translate(-480, -318) "></path>
+                        </svg>
+                    </div>
+                    <ul class="header-nav-list-menu">
+                        <li class="header-nav-list-item"><a href="">About Us</a></li>
+                        <li class="header-nav-list-item"><a href="">Site Policy</a></li>
+                        <li class="header-nav-list-item"><a href="">Terms</a></li>
+                        <li class="header-nav-list-item"><a href="">FAQ</a></li>
+                        <li class="header-nav-list-item"><a class="active" href="">for agencies</a></li>
+                        <li class="header-nav-list-item"><a href="">Contacts</a></li>
+                    </ul>
+                    <div class="header-nav-registration">
+                        <a href="">Login/Registration</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="banner" style="background: url('images/banner.png');">
+    <div class="container">
+        <div class="banner-blog">
+            <h1 class="un-title">my requests</h1>
+            <ul class="banner-brandCramp">
+                <li><a href="">MAIN</a></li>
+                <li><a href="">my requests</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="personal-page">
+    <div class="container">
+        <h1 class="un-title">my requests</h1>
+        <div class="personal-page-block">
+            <div class="row">
+                <div class="col-lg-3">
+                    <ul class="requests-page">
+                        <li><a href="">
+                            Edit personal data
+                        </a></li>
+                        <li><a class="my-request-list" href="">
+                            My requests <span class="requests-page-badge">3</span>
+                        </a></li>
+                        <li><a class="active" href="">
+                            Tariffs
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-9">
+                    <div class="accepted">
+                        <div class="accepted-active">
+                            <h3>active</h3>
+                            <div class="accepted-active-card">
+                                <div class="accepted-active-card-element">
+                                    <div class="accepted-active-card-element-wrap">
+                                        <span class="svg-active"><svg xmlns="http://www.w3.org/2000/svg"
+                                                                      viewBox="0 0 80 80" width="40px"
+                                                                      height="40px"><path fill="#fff"
+                                                                                          d="M40,77.5C19.3,77.5,2.5,60.7,2.5,40S19.3,2.5,40,2.5S77.5,19.3,77.5,40S60.7,77.5,40,77.5z"/><path
+                                                fill="#07A11E"
+                                                d="M40,3c20.4,0,37,16.6,37,37S60.4,77,40,77S3,60.4,3,40S19.6,3,40,3 M40,2C19,2,2,19,2,40 s17,38,38,38s38-17,38-38S61,2,40,2L40,2z"/><path
+                                                fill="#07A11E"
+                                                d="M34 56L20.2 42.2 24.5 38 34 47.6 58.2 23.4 62.5 27.6z"/></svg>
+                                        </span>
+                                        <p>Scott Ramirez accepted your
+                                            request
+
+                                        </p>
+                                        <span>
+                                            <form action="">
+                                                <button class="delete-button-element" type="submit">
+                                                    <svg height="20px" class="delete-icon" viewBox="-48 0 407 407"
+                                                         width="20px" xmlns="http://www.w3.org/2000/svg"><path
+                                                            d="m89.199219 37c0-12.132812 9.46875-21 21.601562-21h88.800781c12.128907 0 21.597657 8.867188 21.597657 21v23h16v-23c0-20.953125-16.644531-37-37.597657-37h-88.800781c-20.953125 0-37.601562 16.046875-37.601562 37v23h16zm0 0"/><path
+                                                            d="m60.601562 407h189.199219c18.242188 0 32.398438-16.046875 32.398438-36v-247h-254v247c0 19.953125 14.15625 36 32.402343 36zm145.597657-244.800781c0-4.417969 3.582031-8 8-8s8 3.582031 8 8v189c0 4.417969-3.582031 8-8 8s-8-3.582031-8-8zm-59 0c0-4.417969 3.582031-8 8-8s8 3.582031 8 8v189c0 4.417969-3.582031 8-8 8s-8-3.582031-8-8zm-59 0c0-4.417969 3.582031-8 8-8s8 3.582031 8 8v189c0 4.417969-3.582031 8-8 8s-8-3.582031-8-8zm0 0"/><path
+                                                            d="m20 108h270.398438c11.046874 0 20-8.953125 20-20s-8.953126-20-20-20h-270.398438c-11.046875 0-20 8.953125-20 20s8.953125 20 20 20zm0 0"/>
+                                        </svg>
+                                                </button>
+
+                                            </form>
+                                        </span>
+                                    </div>
+                                    <div class="accepted-active-card-element-time">
+                                        <time class="accepted-active-card-element-time-content">
+                                            <span class="hours">14</span>:<span class="minutes"></span>:<span
+                                                class="seconds">00</span>
+                                        </time>
+                                    </div>
+                                </div>
+                                <div class="accepted-active-card-element">
+                                    <div class="accepted-active-card-element-wrap">
+                                        <span class="svg-active">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                 viewBox="0 0 80 80" width="40px"
+                                                 height="40px"><path fill="#fff"
+                                                                     d="M40,77.5C19.3,77.5,2.5,60.7,2.5,40S19.3,2.5,40,2.5S77.5,19.3,77.5,40S60.7,77.5,40,77.5z"/><path
+                                                    fill="#07A11E"
+                                                    d="M40,3c20.4,0,37,16.6,37,37S60.4,77,40,77S3,60.4,3,40S19.6,3,40,3 M40,2C19,2,2,19,2,40 s17,38,38,38s38-17,38-38S61,2,40,2L40,2z"/><path
+                                                    fill="#07A11E"
+                                                    d="M34 56L20.2 42.2 24.5 38 34 47.6 58.2 23.4 62.5 27.6z"/></svg>
+                                        </span>
+                                        <p>Scott Ramirez accepted your
+                                            request
+
+                                        </p>
+                                        <span>
+                                            <form action="">
+                                                <button class="delete-button-element" type="submit">
+                                                    <svg height="20px" class="delete-icon" viewBox="-48 0 407 407"
+                                                         width="20px" xmlns="http://www.w3.org/2000/svg"><path
+                                                            d="m89.199219 37c0-12.132812 9.46875-21 21.601562-21h88.800781c12.128907 0 21.597657 8.867188 21.597657 21v23h16v-23c0-20.953125-16.644531-37-37.597657-37h-88.800781c-20.953125 0-37.601562 16.046875-37.601562 37v23h16zm0 0"/><path
+                                                            d="m60.601562 407h189.199219c18.242188 0 32.398438-16.046875 32.398438-36v-247h-254v247c0 19.953125 14.15625 36 32.402343 36zm145.597657-244.800781c0-4.417969 3.582031-8 8-8s8 3.582031 8 8v189c0 4.417969-3.582031 8-8 8s-8-3.582031-8-8zm-59 0c0-4.417969 3.582031-8 8-8s8 3.582031 8 8v189c0 4.417969-3.582031 8-8 8s-8-3.582031-8-8zm-59 0c0-4.417969 3.582031-8 8-8s8 3.582031 8 8v189c0 4.417969-3.582031 8-8 8s-8-3.582031-8-8zm0 0"/><path
+                                                            d="m20 108h270.398438c11.046874 0 20-8.953125 20-20s-8.953126-20-20-20h-270.398438c-11.046875 0-20 8.953125-20 20s8.953125 20 20 20zm0 0"/>
+                                        </svg>
+                                                </button>
+
+                                            </form>
+
+                                        </span>
+                                    </div>
+                                    <div class="accepted-active-card-element-time">
+                                        <time class="accepted-active-card-element-time-content">
+                                            <span class="hours">14</span>:<span class="minutes"></span>:<span
+                                                class="seconds">00</span>
+                                        </time>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="accepted-history">
+                            <h3>history</h3>
+                            <div class="accepted-history-blog">
+                                <div class="accepted-history-card">
+                                    <div class="accepted-history-card-blog">
+                                        <p>Kelly Parker sent you a request</p>
+                                        <form action="">
+                                            <button class="obnavit-image" type="submit">
+                                                <img src="images/obnovet.png" alt="">
+                                            </button>
+                                        </form>
+                                        <span>
+                                        <form action="">
+                                            <button type="submit" class="delete-button-element">
+                                                <svg height="20px" class="delete-icon" viewBox="-48 0 407 407"
+                                                     width="20px" xmlns="http://www.w3.org/2000/svg"><path
+                                                        d="m89.199219 37c0-12.132812 9.46875-21 21.601562-21h88.800781c12.128907 0 21.597657 8.867188 21.597657 21v23h16v-23c0-20.953125-16.644531-37-37.597657-37h-88.800781c-20.953125 0-37.601562 16.046875-37.601562 37v23h16zm0 0"/><path
+                                                        d="m60.601562 407h189.199219c18.242188 0 32.398438-16.046875 32.398438-36v-247h-254v247c0 19.953125 14.15625 36 32.402343 36zm145.597657-244.800781c0-4.417969 3.582031-8 8-8s8 3.582031 8 8v189c0 4.417969-3.582031 8-8 8s-8-3.582031-8-8zm-59 0c0-4.417969 3.582031-8 8-8s8 3.582031 8 8v189c0 4.417969-3.582031 8-8 8s-8-3.582031-8-8zm-59 0c0-4.417969 3.582031-8 8-8s8 3.582031 8 8v189c0 4.417969-3.582031 8-8 8s-8-3.582031-8-8zm0 0"/><path
+                                                        d="m20 108h270.398438c11.046874 0 20-8.953125 20-20s-8.953126-20-20-20h-270.398438c-11.046875 0-20 8.953125-20 20s8.953125 20 20 20zm0 0"/>
+                                            </svg>
+                                            </button>
+
+                                        </form>
+                                        </span>
+                                    </div>
+                                    <div class="accepted-history-card-blog-time">
+                                        <div>
+                                            <p class="accepted-history-card-blog-time-element">12.01.2020</p>
+                                        </div>
+                                        <div class="accepted-history-card-blog-accept">
+                                            <p class="pnt-color">Lorem ipsum dolor sit amet,</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accepted-history-card">
+                                    <div class="accepted-history-card-blog">
+                                        <p>Kelly Parker sent you a request</p>
+                                        <form action="">
+                                            <button class="obnavit-image" type="submit">
+                                                <img src="images/obnovet.png" alt="">
+                                            </button>
+                                        </form>
+                                        <span>
+                                        <form action="">
+                                            <button type="submit" class="delete-button-element">
+                                                <svg height="20px" class="delete-icon" viewBox="-48 0 407 407"
+                                                     width="20px" xmlns="http://www.w3.org/2000/svg"><path
+                                                        d="m89.199219 37c0-12.132812 9.46875-21 21.601562-21h88.800781c12.128907 0 21.597657 8.867188 21.597657 21v23h16v-23c0-20.953125-16.644531-37-37.597657-37h-88.800781c-20.953125 0-37.601562 16.046875-37.601562 37v23h16zm0 0"/><path
+                                                        d="m60.601562 407h189.199219c18.242188 0 32.398438-16.046875 32.398438-36v-247h-254v247c0 19.953125 14.15625 36 32.402343 36zm145.597657-244.800781c0-4.417969 3.582031-8 8-8s8 3.582031 8 8v189c0 4.417969-3.582031 8-8 8s-8-3.582031-8-8zm-59 0c0-4.417969 3.582031-8 8-8s8 3.582031 8 8v189c0 4.417969-3.582031 8-8 8s-8-3.582031-8-8zm-59 0c0-4.417969 3.582031-8 8-8s8 3.582031 8 8v189c0 4.417969-3.582031 8-8 8s-8-3.582031-8-8zm0 0"/><path
+                                                        d="m20 108h270.398438c11.046874 0 20-8.953125 20-20s-8.953126-20-20-20h-270.398438c-11.046875 0-20 8.953125-20 20s8.953125 20 20 20zm0 0"/>
+                                            </svg>
+                                            </button>
+
+                                        </form>
+                                        </span>
+                                    </div>
+                                    <div class="accepted-history-card-blog-time">
+                                        <div>
+                                            <p class="accepted-history-card-blog-time-element">12.01.2020</p>
+                                        </div>
+                                        <div class="accepted-history-card-blog-accept">
+                                            <p>Lorem ipsum dolor sit amet,</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer" style="background: url('images/footer-banner.png')">
+    <div class="container">
+        <div class="footer-top">
+            <div class="row equal-offsets">
+                <div class="col-lg-5 col-md-5 ">
+                    <div class="footer-logo">
+                        <img src="images/footer-logo.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-2 ">
+                    <ul class="footer-menu">
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Contacts us</a></li>
+                        <li><a href="">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-3 ">
+
+                    <div class="footer-right-menu">
+                        <ul class="footer-menu">
+                            <li><a href="">Agencies</a></li>
+                            <li><a href="">Return</a></li>
+                        </ul>
+                        <ul class="footer-social">
+                            <li><a href="">
+                                <svg height="25" width="25" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z"></path>
+                                </svg>
+                            </a></li>
+                            <li><a href="">
+                                <svg height="25" width="25" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                    <path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path>
+                                </svg>
+                            </a></li>
+                            <li><a href="">
+                                <svg height="25" width="25" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+                                </svg>
+                            </a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer-buttom">
+            <ul class="footer-buttom-list">
+                <li>“HHA Connect” All rights reserved</li>
+                <li>© Copyright 2019 - Developed by <a href="">SOS Group</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script src="libs/jquery/jquery.min.js"></script>
+<script src="libs/custom-modal/custom-modal.js"></script>
+<script src="js/add-inform-function.js"></script>
+<script src="libs/datepicker/jquery.timepicker.min.js"></script>
+<script src="libs/datepicker/datepicker.min.js"></script>
+<script src="libs/custom-select/customSelect.js"></script>
+<script src="libs/basictable/jquery.basictable.min.js"></script>
+<script src="libs/countdowntime/countdowntime.js"></script>
+<script src="js/main.js"></script>
+
+
+<script>
+    Date.prototype.getOffsetDate = function (offset) {
+        utc = this.getTime() + (this.getTimezoneOffset() * 60000);
+        return new Date(utc + (3600000 * offset));
+    }
+
+    var date = new Date(1578500400 * 1000).getOffsetDate(0);
+
+
+    $('.accepted-active-card-element-time-content').countdown100({
+        endtimeYear: date.getFullYear(),
+        endtimeMonth: date.getDate(),
+        endtimeDate: date.getMonth(),
+        endtimeHours: date.getHours(),
+        endtimeMinutes: date.getMinutes(),
+        endtimeSeconds: date.getSeconds(),
+
+    })
+</script>
+
+</body>
+</html>
+
